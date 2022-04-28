@@ -2,14 +2,22 @@
 
 ## Data Types in Java
 
-### Strings
-* List (ordered collection, data types can be heterogeneous. Similar to a js array)
-* Dictionary (key-value pairs. Similar to a js object)
-* Array (ordered collection, all elements must be same data type)
-* Set (unordered collection, no duplicate values)
+```java
+int myNum = 5;               // Integer (whole number)
+float myFloatNum = 5.99f;    // Floating point number (note the 'f' suffix on the number itself)
+char myLetter = 'D';         // Character
+boolean myBool = true;       // Boolean
+String myText = "Hello";     // String
+```
 
-Iterables: List, Tuple, String, Dictionary and Set.
-(Also any objects you define with an __iter__() or __getitem()__ method)
+### Strings
+
+
+### Mutability
+To make a variable immutable, add the `final` keyword:
+```java
+final String a = "Hello" // can't be changed
+```
 
 ### Arrays
 
