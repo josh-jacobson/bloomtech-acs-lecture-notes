@@ -13,6 +13,16 @@ Iterables: List, Tuple, String, Dictionary and Set.
 
 ### Arrays
 
+### Booleans
+
+### Converting between data types
+
+## Conditional Logic
+
+## For loops
+
+## While Loops
+
 ## More resources:
 * [The ultimate guide for data structures & algorithm interviews](https://dev.to/rahhularora/the-ultimate-guide-for-data-structures-algorithm-interviews-npo)
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
