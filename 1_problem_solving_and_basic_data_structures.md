@@ -13,9 +13,6 @@ String myText = "Hello";     // String
 Primitive types: boolean, char, int, float, byte, short, long
 Object types: String, Array, Class, Interface, etc
 
-### Strings
-
-
 ### Mutability
 To make a variable immutable, add the `final` keyword:
 ```java
@@ -45,7 +42,21 @@ String s = "123"
 int i = Integer.parseInt(s)
 ```
 
+
 ## Conditional Logic
+Comparators in Java: <=, >=, ==
+&&, ||
+
+Example if else statement:
+```java
+if (x <= 12 && y < 15) {
+  System.out.println("TRUE");
+} else {
+  System.out.println("False");
+}
+```
+
+## Strings
 
 ## For loops
 
