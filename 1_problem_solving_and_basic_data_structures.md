@@ -58,6 +58,26 @@ if (x <= 12 && y < 15) {
 
 ## Strings
 
+Length of string: `.length()`
+```java
+String s = "Hello";
+System.out.println(s.length(); // 5
+```
+
+Slicing out individual characters: `.charAt(index)`
+```java
+String s = "Hello";
+char firstChar = s.charAt(0);
+char lastChar = s.charAt(s.length() - 1);
+```
+
+Convert the whole string to uppercase or lowercase: `.toUppercase()`, `.toLowercase()`
+
+Concatenation: `newString = string1 + string2`
+
+String comparison: `string1.equals(string2)` (using `==` can lead to strange results)
+
+
 ## For loops
 
 ## While Loops
