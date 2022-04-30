@@ -111,6 +111,18 @@ ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(a));
 ```
 
 Array delete:
+```java
+int[] solution(int[] a, int index) {
+  int b[] = new int[a.length -1];
+  
+  for (int i=0, j=0; i<a.length; i++) {
+    if (i != index) {
+      b[j++] = a[i];
+    }
+  }
+  return b;
+}
+```
 
 ## For loops
 ```java
