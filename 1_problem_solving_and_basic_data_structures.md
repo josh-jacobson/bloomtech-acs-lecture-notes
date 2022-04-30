@@ -79,6 +79,22 @@ String comparison: `string1.equals(string2)` (using `==` can lead to strange res
 
 
 ## For loops
+```java
+for(int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
+```
+The syntax is just like C++ and other languages based on C, with three clauses within the parentheses:
+1. Initialization
+2. Looping condition (only continue the loop if this expression evaluates to true)
+3. Update expression to run after each iteration of the loop (e.g., increment an index)
+
+If it helps, you can think about this classic for loop structure like this:
+```java
+for (initialization; condition; update) {
+    // body of loop 
+}
+```
 
 ## While Loops
 
