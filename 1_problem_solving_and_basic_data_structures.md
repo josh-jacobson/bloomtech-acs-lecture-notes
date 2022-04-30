@@ -97,9 +97,18 @@ import java.util.Arrays; // at the top of your file
 System.out.println(Arrays.toString(b)); // [1, 2, 3, 4]
 ```
 
-Array filtering:
+Array filtering (use an array stream with built-in filter method)
+Example: filter array a to only include even elements.
+```java
+int b[] = Arrays.stream(b).filter(n -> (n % 2 == 1)).toArray();
+```
 
-ArrayList
+
+ArrayList (dynamic array)
+```java
+// Make an ArrayList from an Integer array:
+ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(a));
+```
 
 Array delete:
 
