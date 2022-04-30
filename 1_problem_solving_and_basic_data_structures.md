@@ -24,10 +24,22 @@ final String a = "Hello" // can't be changed
 ### Booleans
 
 ### Converting between data types
-Convert to String:
+Primitive type to String:
 ```java
 float f = 3.14f
 String s = String.valueOf(f) // also works for int, char, boolean, others
+```
+
+Converting between primitive types:
+```java
+float a = 3.14f
+int b = (int)f
+```
+
+String to int:
+```java
+String s = "123"
+int i = Integer.parseInt(s)
 ```
 
 ## Conditional Logic
