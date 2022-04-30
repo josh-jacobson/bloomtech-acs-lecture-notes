@@ -80,13 +80,14 @@ String comparison: `string1.equals(string2)` (using `==` can lead to strange res
 Length of an array: `a.length`
 
 Access the nth element of an array: `a[n-1]` (indexing starts at 0)
-Watch out for "off-by-one" errors that come up frequently when translating between 0-indexing and many real world contexts where indexings starts from 1. These errors are sneaky and can easily result in runtime errors when the index goes "out of bounds". In algorithm problems, it's important to test edge cases and include safety conditions in your logic.
+
+Watch out for "off-by-one" errors that come up often when translating between 0-indexing and many real world contexts where indexings starts from 1. These errors are sneaky and can easily result in runtime errors when the index goes "out of bounds". In algorithm problems, it's important to test edge cases and include safety conditions in your logic.
 
 Append a new element to the end of an array (not as easy as other languages):
 ```java
 int[] a = {1, 2, 3};
 int[] b = new int[a.length + 1]; // Create a new array, b, with one more slot than a
-System.arraycopy(a, 0, b, 0, a.length); // Copy all values from a to b
+System.arraycopy(a, 0, b, 0, a.length); // Copy all values from a (starting at index 0) to b (starting at index 0) 
 b[a.length] = 4; // careful for potential off-by-one errors here!
 ```
 
@@ -95,6 +96,12 @@ Print an array:
 import java.util.Arrays; // at the top of your file
 System.out.println(Arrays.toString(b)); // [1, 2, 3, 4]
 ```
+
+Array filtering:
+
+ArrayList
+
+Array delete:
 
 ## For loops
 ```java
