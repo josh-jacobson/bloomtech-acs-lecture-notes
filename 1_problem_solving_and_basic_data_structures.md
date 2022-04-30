@@ -10,6 +10,9 @@ boolean myBool = true;       // Boolean
 String myText = "Hello";     // String
 ```
 
+Primitive types: boolean, char, int, float, byte, short, long
+Object types: String, Array, Class, Interface, etc
+
 ### Strings
 
 
