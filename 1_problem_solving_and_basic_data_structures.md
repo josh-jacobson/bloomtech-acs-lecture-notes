@@ -24,12 +24,19 @@ final String a = "Hello" // can't be changed
 ### Booleans
 
 ### Converting between data types
+Float to String:
+```java
+float f = 3.14f
+String s = String.valueOf(f)
+```
 
 ## Conditional Logic
 
 ## For loops
 
 ## While Loops
+
+
 
 ## More resources:
 * [The ultimate guide for data structures & algorithm interviews](https://dev.to/rahhularora/the-ultimate-guide-for-data-structures-algorithm-interviews-npo)
