@@ -24,10 +24,10 @@ final String a = "Hello" // can't be changed
 ### Booleans
 
 ### Converting between data types
-Float to String:
+Convert to String:
 ```java
 float f = 3.14f
-String s = String.valueOf(f)
+String s = String.valueOf(f) // also works for int, char, boolean, others
 ```
 
 ## Conditional Logic
