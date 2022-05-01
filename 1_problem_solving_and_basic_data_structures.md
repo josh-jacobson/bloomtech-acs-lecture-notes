@@ -161,3 +161,5 @@ for (initialization; condition; update) {
 ## More resources:
 * [The ultimate guide for data structures & algorithm interviews](https://dev.to/rahhularora/the-ultimate-guide-for-data-structures-algorithm-interviews-npo)
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+* [15 Useful Code Snippets for Java Developers](https://jaxenter.com/15-useful-code-snippets-java-developers-131796.html)
+* [Java Algorithms](https://www.programiz.com/java-programming/algorithms)
