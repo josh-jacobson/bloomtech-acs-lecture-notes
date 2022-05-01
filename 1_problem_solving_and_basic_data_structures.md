@@ -77,7 +77,8 @@ String comparison: `string1.equals(string2)` (using `==` can lead to strange res
 
 
 ## Arrays
-Length of an array: `a.length`
+Length of an array of primitives (int, float, boolean, etc): `a.length`
+Length of an array of objects (String, Integer, etc): `a.length()`
 
 Access the nth element of an array: `a[n-1]` (indexing starts at 0)
 
@@ -123,6 +124,17 @@ int[] solution(int[] a, int index) {
   return b;
 }
 ```
+
+### min and max values of an int array
+This is not straightforward in Java as it is in higher-level languages like Python, Ruby and JavaScript.
+You could write a for loop to look through and manually find the max/min value. But these one-liners are helpful to pop into a CodeSignal algo problem and save some time!
+```java
+int[] array = {16, 1, 4, 8}
+int min = Arrays.stream(array).min().getAsInt(); // 1
+int max = Arrays.stream(array).max().getAsInt(); // 16
+```
+
+Remember to import the Arrays utility library with `import java.util.Arrays;` at the top of your file (not necessary in a sandbox env like CodeSignal)
 
 ## For loops
 ```java
