@@ -11,6 +11,7 @@ String myText = "Hello";     // String
 ```
 
 Primitive types (aka literals): boolean, char, int, float, byte, short, long
+
 Object types: String, Array, Class, Interface, etc
 
 ### Wrapper classes
