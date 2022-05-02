@@ -10,8 +10,18 @@ boolean myBool = true;       // Boolean
 String myText = "Hello";     // String
 ```
 
-Primitive types: boolean, char, int, float, byte, short, long
+Primitive types (aka literals): boolean, char, int, float, byte, short, long
 Object types: String, Array, Class, Interface, etc
+
+### Wrapper classes
+Each primitive type has a corresponding "wrapper class" for use in Collections and other advanced data structures (primitive types cannot be used in these directly).
+
+* Primitive types: byte, short, int, long, float, double, boolean, char
+* Wrapper classes: Byte, Short, Integer, Long, Float, Double, Boolean, Character
+
+Note that primitive types have a default value, but wrapper class objects are null until assigned a value. You'll find that many common operations in algorithm problems (e.g., sorting an array) will require explicit or implicit conversion between primitive types and wrapper classes.
+
+When this wrapping / unwrapping behavior is done by the Java compiler automatically, it's called "Autoboxing" and "Unboxing". Be aware of the memory and performance implications of this, as it can unexpectedly add a lot of overhead to your programs!
 
 ### Mutability
 To make a variable immutable, add the `final` keyword:
@@ -43,7 +53,10 @@ int i = Integer.parseInt(s)
 
 ## Conditional Logic
 Comparators in Java: <=, >=, ==
-&&, ||
+
+When comparing objects, use `.equals()` instead of `==`
+
+Logical and/or: &&, ||
 
 Example if else statement:
 ```java
