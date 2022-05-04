@@ -33,10 +33,12 @@ final String a = "Hello" // can't be changed
 ### Booleans
 
 ### Converting between data types
-Primitive type to String:
+Number to String:
 ```java
 float f = 3.14f
 String s = String.valueOf(f) // also works for int, char, boolean, others
+// Or this also works:
+String s2 = Float.toString(f);
 ```
 
 Converting between primitive types:
