@@ -41,10 +41,16 @@ String s = String.valueOf(f) // also works for int, char, boolean, others
 String s2 = Float.toString(f);
 ```
 
-Converting between number primitive types:
+Converting between number types:
 ```java
+// float to int (rounding rather truncation):
 float a = 3.14f;
 int b = Math.round(a); // 3
+// int to double (convert before division and other arithemtic ops that can be lossy with integers)
+int i = 3
+int j = 4
+double threeFourths = (double)i / (double)j // returns 0.75 (with integer division would truncate to 0!)
+
 ```
 
 String to int:
