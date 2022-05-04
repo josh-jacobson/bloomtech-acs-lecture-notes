@@ -41,7 +41,7 @@ String s = String.valueOf(f) // also works for int, char, boolean, others
 String s2 = Float.toString(f);
 ```
 
-Converting between primitive types:
+Converting between number primitive types:
 ```java
 float a = 3.14f;
 int b = Math.round(a); // 3
@@ -51,6 +51,14 @@ String to int:
 ```java
 String s = "123"
 int i = Integer.parseInt(s)
+```
+
+String to float:
+```java
+String s = "1.34"
+float f = Float.parseFloat(s)
+// or:
+float f2 = Float.valueOf(s)
 ```
 
 
