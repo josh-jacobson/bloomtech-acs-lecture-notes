@@ -186,6 +186,17 @@ for (initialization; condition; update) {
 
 ## While Loops
 
+## For loops
+```java
+// initialize variables outside the loop
+int i = 0;
+int n = 5;
+// Loop while condition is true
+while(i<5) {
+  System.out.println(i);
+  i++;
+}
+```
 
 
 ## More resources:
