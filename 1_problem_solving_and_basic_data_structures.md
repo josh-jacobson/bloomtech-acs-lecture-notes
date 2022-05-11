@@ -196,15 +196,6 @@ while(i<5) {
 }
 ```
 
-## For loops
-```java
-for(int i =0; i<5; i++) {
-  System.out.println(i);
-  i++;
-}
-```
-
-
 ## More resources:
 * [The ultimate guide for data structures & algorithm interviews](https://dev.to/rahhularora/the-ultimate-guide-for-data-structures-algorithm-interviews-npo)
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
