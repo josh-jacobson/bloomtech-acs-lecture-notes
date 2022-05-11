@@ -53,19 +53,31 @@ double threeFourths = (double)i / (double)j // returns 0.75 (with integer divisi
 
 ```
 
-String to int:
+### String to int:
 ```java
 String s = "123"
 int i = Integer.parseInt(s)
 ```
 
-String to float:
+### String to float:
 ```java
 String s = "1.34"
 float f = Float.parseFloat(s)
 // or:
 float f2 = Float.valueOf(s)
 ```
+
+### char to String:
+There are quite a few different ways to do this, some more efficient than others! The `String.valueOf` class method is the best way, and `Character.toString` works similarly well.
+```java
+char c = 'a';
+String s = String.valueOf(c);             // fastest + most memory efficient
+String s = Character.toString(c);
+String s = new String(new char[]{c});
+String s = String.valueOf(new char[]{c});
+String s = new Character(c).toString();
+String s = "" + c;                        // slowest + least memory efficient
+```java
 
 
 ## Conditional Logic
