@@ -68,7 +68,7 @@ float f2 = Float.valueOf(s)
 ```
 
 ### char to String:
-There are quite a few different ways to do this, some more efficient than others! The `String.valueOf` class method is the best way, and `Character.toString` works similarly well.
+There are quite a few different ways to do this, some more efficient than others! The `String.valueOf` class method is the best way, and `Character.toString` works similarly well. Here are all the ways to do this, from best to worst:
 ```java
 char c = 'a';
 String s = String.valueOf(c);             // fastest + most memory efficient
@@ -77,8 +77,7 @@ String s = new String(new char[]{c});
 String s = String.valueOf(new char[]{c});
 String s = new Character(c).toString();
 String s = "" + c;                        // slowest + least memory efficient
-```java
-
+```
 
 ## Conditional Logic
 Comparators in Java: <=, >=, ==
