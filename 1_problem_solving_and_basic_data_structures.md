@@ -116,6 +116,11 @@ Concatenation: `newString = string1 + string2`
 
 String comparison: `string1.equals(string2)` (using `==` can lead to strange results)
 
+Copy a string n times into a new string (e.g., leading zeros or repeating sequence):
+```java
+int n = 12
+String nZeros = "0".repeat(n) // returns "000000000000"
+```
 
 ## Arrays
 Length of an array of primitives (int, float, boolean, etc): `a.length`
