@@ -47,9 +47,13 @@ int b[] = Arrays.stream(b).filter(n -> (n % 2 == 1)).toArray();
 ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(a));
 ```
 
+## Streams
 
 
-## Looping
+
+## Multidimensional Arrays
+
+## Moving Window Techniques
 
 ## Helpful resources
 * [Math is Fun - Number Bases](https://www.mathsisfun.com/numbers/bases.html)
