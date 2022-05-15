@@ -97,9 +97,12 @@ int[][] twoDimensional = {
 }
 // access elements with [row][col]
 return twoDimensional[2][1]; // 8
+
+// print an entire row (helpful for debugging if you ever get confused!)
+System.out.println(Arrays.toString(twoDimensional[0])); // [1, 2, 3]
 ```
 
-Access with [row][col]
+
 ## Moving Window Techniques
 
 ## Helpful resources
