@@ -89,7 +89,17 @@ return check(2, arr); // false
 For some algo problems you'll perform an operation like this many times, for example removing elements from a larger array that appear in a "filter list". In this case, be sure to sort the filter list just once rather than sorting every time within the check method to avoid ballooning runtime.
 
 ## Multidimensional Arrays
+```java
+int[][] twoDimensional = {
+  {1, 2, 3},
+  {4, 5, 6},
+  {7, 8, 9}
+}
+// access elements with [row][col]
+return twoDimensional[2][1]; // 8
+```
 
+Access with [row][col]
 ## Moving Window Techniques
 
 ## Helpful resources
