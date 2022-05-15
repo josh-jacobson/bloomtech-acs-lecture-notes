@@ -79,6 +79,12 @@ String s = new Character(c).toString();
 String s = "" + c;                        // slowest + least memory efficient
 ```
 
+### char to int:
+```java
+char c = '5';
+int i = Character.getNumericValue(c); // 5
+```
+
 ## Conditional Logic
 Comparators in Java: <=, >=, ==
 
