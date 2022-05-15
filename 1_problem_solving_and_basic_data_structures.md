@@ -122,6 +122,12 @@ int n = 12
 String nZeros = "0".repeat(n) // returns "000000000000"
 ```
 
+Reverse a string:
+```java
+String a = "abcd"
+String b = new StringBuilder(a).reverse().toString(); // "dcba"
+```
+
 ## Arrays
 Length of an array of primitives (int, float, boolean, etc): `a.length`
 Length of an array of objects (String, Integer, etc): `a.length()`
