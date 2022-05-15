@@ -33,8 +33,17 @@ int[] solution(int[] a, int index) {
 
 Print an array:
 ```java
-import java.util.Arrays; // at the top of your file
 System.out.println(Arrays.toString(b)); // [1, 2, 3, 4]
+```
+
+Sort an array in-place:
+```java
+Arrays.sort(a);
+```
+
+Create a sorted version of an array (without modifying the original):
+```java
+int[] b = Arrays.stream(a).sorted().toArray();
 ```
 
 Array filtering (use an array stream with built-in filter method) Example: filter array a to only include even elements.
