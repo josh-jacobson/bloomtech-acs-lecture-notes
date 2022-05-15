@@ -49,7 +49,12 @@ ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(a));
 
 ## Streams
 
-
+## Advanced type conversions:
+String to char array: `toCharArray()` instance method
+```java
+    String s = "abcd"; 
+    return s.toCharArray(); // ['a', 'b', 'c', 'd']
+```
 
 ## Multidimensional Arrays
 
