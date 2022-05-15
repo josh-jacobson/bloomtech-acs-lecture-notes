@@ -49,6 +49,14 @@ ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(a));
 
 ## Streams
 
+## Comparators
+Array equality:
+```java
+int[] a = new int[] {1, 2, 3, 4};
+int[] b = new int[] {1, 2, 3, 4};
+return Arrays.equals(a,b); // true
+```
+
 ## Advanced type conversions:
 String to char array: `toCharArray()` instance method
 ```java
