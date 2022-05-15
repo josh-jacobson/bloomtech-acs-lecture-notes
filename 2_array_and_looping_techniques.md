@@ -102,6 +102,14 @@ return twoDimensional[2][1]; // 8
 System.out.println(Arrays.toString(twoDimensional[0])); // [1, 2, 3]
 ```
 
+To loop through a multi-dimensional array and do something for each row:
+```java
+// think of this loop as "for each row in the 2 dimensional array:"
+for (int[] row: twoDimensional) {
+   System.out.println(Arrays.toString(row));
+}
+
+```
 
 ## Moving Window Techniques
 
