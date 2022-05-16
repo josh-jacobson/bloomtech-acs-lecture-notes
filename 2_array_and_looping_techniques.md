@@ -114,6 +114,5 @@ for (int[] row: twoDimensional) {
 ## Moving Window Techniques
 
 ## Helpful resources
-* [Math is Fun - Number Bases](https://www.mathsisfun.com/numbers/bases.html)
-* [ASCII Table](https://www.ascii-code.com/)
-* 
+* [Java Docs - Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
+* [Arrays stream() method in Java](https://www.geeksforgeeks.org/arrays-stream-method-in-java/)
