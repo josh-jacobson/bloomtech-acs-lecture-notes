@@ -56,8 +56,6 @@ int b[] = Arrays.stream(b).filter(n -> (n % 2 == 1)).toArray();
 ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(a));
 ```
 
-## Streams
-
 ## Advanced Comparisons and Conversions
 Array equality:
 ```java
