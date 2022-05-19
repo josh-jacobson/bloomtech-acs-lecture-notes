@@ -110,6 +110,12 @@ for (int[] row: twoDimensional) {
 ```
 
 ## Moving Window Techniques
+The key insight for a variable window size is knowing how to adjust your indexing.
+
+For most problems, when we don't want the window to go "out of bounds":
+Loop condition: until i < a.length - (window_size - 1)
+Size of result array: a.length - (window_size - 1)
+
 
 ## Helpful resources
 * [Java Docs - Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
