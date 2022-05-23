@@ -1,5 +1,45 @@
 # Sprint 3: Intermediate Data Structures
 
+## Hash Map Examples
+Count letters in a string:
+```java
+HashMap<Character, Integer> counts = new HashMap<Character, Integer>();
+int[] solution = new int[letters.length()];
+for(int i = 0; i < s.length(); i++) {
+    Character letter = s.charAt(i);
+    int val = counts.getOrDefault(letter, 0);
+    counts.put(letter, val+1);
+}
+
+// Print out the HashMap (useful for debugging!)
+for (Character letter: counts.keySet()) {
+    String value = counts.get(letter).toString();
+    System.out.println(letter.toString() + " " + value);
+}
+```
+
+Count words in a string:
+```java
+// 1. split the string (by spaces) into an array of word strings
+String[] words = s.split(" ");
+
+// 2. build a hashmap to store counts of how many times each word appears in words array
+HashMap<String, Integer> counts = new HashMap<String, Integer>();
+for (int i=0; i<words.length; i++) {
+    String word = words[i];
+    // if we've seen it, increment the count. If not, initialize count = 1
+    Integer val = counts.getOrDefault(word, 0);
+    counts.put(word, val+1);
+}
+
+// print the hashmap for debugging
+for (String word: counts.keySet()) {
+    String value = counts.get(word).toString();
+    System.out.println(word + " " + value);
+}
+
+```
+
 ## Linked Lists
 Time complexity for singly linked lists: 
 * Insert or delete at beginning: O(1)
