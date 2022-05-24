@@ -78,8 +78,6 @@ Elements can be added to or removed from a stack at only one end. Since we view 
 
 Similarly, you can use a linked list (O(1) push/pop) or dynamic array (O(n) push/pop) to implement a stack.
 
-## Caching
-
 ## Binary Trees
 Each node has:
 * a value
